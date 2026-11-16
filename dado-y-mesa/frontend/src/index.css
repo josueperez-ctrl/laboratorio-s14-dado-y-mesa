@@ -1,0 +1,20 @@
+@import url("https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Playfair+Display:wght@600;700&display=swap");
+@import "tailwindcss";
+
+@theme {
+  --font-sans: "DM Sans", sans-serif;
+  --font-display: "Playfair Display", Georgia, serif;
+  --color-background: #faf7ed;
+  --color-foreground: #22362b;
+  --color-primary: #224b39;
+  --color-primary-foreground: #fffdf7;
+  --color-muted: #e7eadf;
+  --color-muted-foreground: #526256;
+  --color-card: #fffdf8;
+  --color-border: #d5dacf;
+  --color-accent: #f7d574;
+}
+
+html { scroll-behavior: smooth; }
+body { background: var(--color-background); color: var(--color-foreground); }
+@media (prefers-reduced-motion: reduce) { html { scroll-behavior: auto; } }
