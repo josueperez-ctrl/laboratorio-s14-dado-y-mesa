@@ -1,0 +1,97 @@
+[
+  {
+    "model": "catalogo.categoria",
+    "pk": 1,
+    "fields": {
+      "nombre": "Estrategia"
+    }
+  },
+  {
+    "model": "catalogo.categoria",
+    "pk": 2,
+    "fields": {
+      "nombre": "Cartas"
+    }
+  },
+  {
+    "model": "catalogo.categoria",
+    "pk": 3,
+    "fields": {
+      "nombre": "Accesorios"
+    }
+  },
+  {
+    "model": "catalogo.producto",
+    "pk": 1,
+    "fields": {
+      "nombre": "Ajedrez de madera",
+      "descripcion": "Tablero plegable y piezas de madera para dos jugadores.",
+      "precio": "89.90",
+      "imagen": "/imagenes/ajedrez.png",
+      "cantidad_disponible": 12,
+      "categoria": 1,
+      "descuento": 20
+    }
+  },
+  {
+    "model": "catalogo.producto",
+    "pk": 2,
+    "fields": {
+      "nombre": "Islas del sur",
+      "descripcion": "Explora islas y reúne recursos en un juego de estrategia para 2 a 4 jugadores.",
+      "precio": "129.00",
+      "imagen": "/imagenes/islas.png",
+      "cantidad_disponible": 8,
+      "categoria": 1
+    }
+  },
+  {
+    "model": "catalogo.producto",
+    "pk": 3,
+    "fields": {
+      "nombre": "Baraja clásica",
+      "descripcion": "Baraja de 54 cartas para juegos familiares y de sobremesa.",
+      "precio": "24.90",
+      "imagen": "/imagenes/baraja.png",
+      "cantidad_disponible": 21,
+      "categoria": 2
+    }
+  },
+  {
+    "model": "catalogo.producto",
+    "pk": 4,
+    "fields": {
+      "nombre": "Fauna andina",
+      "descripcion": "Juego de memoria con ilustraciones de animales del Perú.",
+      "precio": "39.90",
+      "imagen": "/imagenes/fauna.png",
+      "cantidad_disponible": 10,
+      "categoria": 2,
+      "descuento": 15
+    }
+  },
+  {
+    "model": "catalogo.producto",
+    "pk": 5,
+    "fields": {
+      "nombre": "Dados de rol",
+      "descripcion": "Juego de siete dados poliédricos para partidas de rol.",
+      "precio": "29.90",
+      "imagen": "/imagenes/dados.png",
+      "cantidad_disponible": 17,
+      "categoria": 3
+    }
+  },
+  {
+    "model": "catalogo.producto",
+    "pk": 6,
+    "fields": {
+      "nombre": "Bandeja para dados",
+      "descripcion": "Bandeja plegable con interior de fieltro.",
+      "precio": "35.00",
+      "imagen": "/imagenes/bandeja.png",
+      "cantidad_disponible": 0,
+      "categoria": 3
+    }
+  }
+]
